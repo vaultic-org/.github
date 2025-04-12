@@ -1,37 +1,47 @@
 # 🏢 Vaultic — Secure Storage & Encrypted Collaboration
 
-**Vaultic** is a privacy-first ecosystem designed for encrypted file storage, secure backup, and seamless sharing — all with zero trust in the storage layer.
+**Vaultic** is a privacy-first platform for encrypted backup, file sharing, and data collaboration.  
+It is built on a zero-knowledge architecture where your content is encrypted end-to-end — before leaving your device.
 
-This GitHub organization hosts the core tools powering Vaultic's open and extensible architecture.
+This organization hosts Vaultic’s official tools, libraries, and integrations for developers and users.
 
 ---
 
-## 🚀 What’s Public
+## 🔓 Open Components
 
 | Repository              | Description |
 |-------------------------|-------------|
-| [`vaultic`](https://github.com/vaultic-org/vaultic)             | 🐍 Python CLI/GUI for encrypted local backups |
-| [`vaultic-sdk-ts`](https://github.com/vaultic-org/vaultic-sdk-ts) | 📦 Official TypeScript SDK for interacting with Vaultic API |
-| [`vaultic-site`](https://github.com/vaultic-org/vaultic-site)   | 🌐 Public-facing website and documentation (WIP) |
+| [`vaultic`](https://github.com/vaultic-org/vaultic)             | 🐍 Python CLI/GUI for incremental, encrypted backups |
+| [`vaultic-sdk-ts`](https://github.com/vaultic-org/vaultic-sdk-ts) | 📦 Official TypeScript SDK for client-side encryption and API integration |
+| [`vaultic-site`](https://github.com/vaultic-org/vaultic-site)   | 🌐 Landing page, docs, and public-facing site (WIP) |
 
-> 🛑 Some parts of the Vaultic infrastructure (API, SaaS dashboard, CI/CD) are currently under private development.
-
----
-
-## 📦 Status
-
-Vaultic is under active development.  
-More public releases, hosted services and documentation will roll out progressively.
-
-If you're interested in the project, feel free to watch this organization or contribute to the open components.
+> 🔒 API backend, SaaS dashboard, and internal CI/CD are currently private during early development.
 
 ---
 
-## 👷 Contribution
+## 🛡 Philosophy
 
-See [`vaultic-org/.github`](https://github.com/vaultic-org/.github) for contribution templates and guidance.
+- 🔐 **End-to-end encryption**: Your data is encrypted before it touches any server.
+- 🧱 **Modular architecture**: CLI, SDK, and Web all interact through a shared API.
+- 🧠 **Zero trust**: Vaultic stores encrypted content, but never sees your keys or data.
+- 🤝 **Developer-first**: Designed to be integrated into your apps, tools, and workflows.
+- 💼 **Compliant-ready**: Architected to support use in regulated environments (health, legal, education).
 
 ---
 
-**Vaultic is open to privacy-focused developers, builders and curious minds.**  
-More to come soon.
+## 🚧 Status
+
+Vaultic is under **active development**.  
+Public releases of the CLI and SDK are underway. The SaaS platform is coming soon.
+
+If you're a developer, privacy enthusiast, or E2EE advocate — you're welcome to follow, test, or contribute.
+
+---
+
+## 🤝 Contribute
+
+See [`vaultic-org/.github`](https://github.com/vaultic-org/.github) for contribution guidelines, issue templates, and roadmap planning.
+
+---
+
+**Vaultic is built for those who believe privacy is a right, not a feature.**
