@@ -14,6 +14,7 @@ This organization hosts all official Vaultic components: CLI, SDKs, cryptographi
 | [`vaultic`](https://github.com/vaultic-org/vaultic)                     | 🐍 Python CLI/GUI for incremental encrypted backups |
 | [`vaultic-sdk-ts`](https://github.com/vaultic-org/vaultic-sdk-ts)     | 📦 TypeScript SDK for client-side end-to-end encryption |
 | [`vaultic-crypto-engine`](https://github.com/vaultic-org/vaultic-crypto-engine) | 🦀 Rust/WASM crypto engine for RSA-OAEP keypair generation and encryption |
+| [`vaultic-crypto-engine-demo`](https://github.com/vaultic-org/vaultic-crypto-engine-demo) | 🔐 Vaultic Crypto Engine minimal web playground to test RSA key generation and encryption |
 | [`vaultic-site`](https://github.com/vaultic-org/vaultic-site)         | 🌐 Public site & developer documentation (WIP) |
 
 > 🔒 SaaS backend, billing API, and admin dashboard are currently private during early development.
