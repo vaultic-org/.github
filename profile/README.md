@@ -3,6 +3,11 @@
 **Vaultic** is a modular, privacy-first platform for encrypted backup, secure collaboration, and zero-knowledge encryption services.  
 We provide tools for both end users and developers to encrypt, store, and manage data — without ever exposing secrets.
 
+Vaultic is composed of two core modules:
+
+- **Vaultic Crypto Engine** (Rust/WASM) — powering E2EE, hybrid encryption, keypair protection and SDK integration
+- **Vaultic Vaults** (Python) — encrypted backup system for local files with incremental logic, cloud sync, and integrity checks
+
 This organization hosts all official Vaultic components: CLI, SDKs, cryptographic engine, and developer integrations.
 
 ---
@@ -13,11 +18,11 @@ This organization hosts all official Vaultic components: CLI, SDKs, cryptographi
 |---------------------------------------------------|-------------|
 | [`vaultic-vaults`](https://github.com/vaultic-org/vaultic-vaults)                     | 🐍 Python CLI/GUI for incremental encrypted backups |
 | [`vaultic-sdk-ts`](https://github.com/vaultic-org/vaultic-sdk-ts)     | 📦 TypeScript SDK for client-side end-to-end encryption |
-| [`vaultic-crypto-engine`](https://github.com/vaultic-org/vaultic-crypto-engine) | 🦀 Rust/WASM crypto engine for RSA-OAEP keypair generation and encryption |
-| [`vaultic-crypto-engine-demo`](https://github.com/vaultic-org/vaultic-crypto-engine-demo) | 🔐 Vaultic Crypto Engine minimal web playground to test RSA key generation and encryption |
+| [`vaultic-crypto-engine`](https://github.com/vaultic-org/vaultic-crypto-engine) | 🦀 Rust/WASM crypto engine for RSA/ECC keypair generation and hybrid encryption |
+| [`vaultic-crypto-engine-demo`](https://github.com/vaultic-org/vaultic-crypto-engine-demo) | 🔐 Vaultic Crypto Engine minimal web playground to test hybrid encryption |
 | [`vaultic`](https://github.com/vaultic-org/vaultic)         | 🌐 Public site & developer documentation (WIP) |
 
-> 🔒 SaaS backend, billing API, and admin dashboard are currently private during early development.
+> 🔒 SaaS backend, billing API, and admin dashboard stays private.
 
 ---
 
@@ -33,10 +38,10 @@ This organization hosts all official Vaultic components: CLI, SDKs, cryptographi
 
 ## 📦 Use Cases
 
-- Secure incremental backup (via Vaultic CLI)
+- Secure incremental backup (via Vaultic Vaults)
 - Privacy-preserving file storage (BYOS)
 - Embedded encryption in apps and services
-- SaaS integrations designed with **GDPR and HIPAA principles in mind**
+- SaaS integrations designed with **GDPR and HIPAA principles in mind** (**RGPD** in France)
 
 ---
 
