@@ -18,7 +18,6 @@ This organization hosts all official Vaultic components: CLI, SDKs, cryptographi
 |---------------------------------------------------|-------------|
 | [`vaultic-vaults`](https://github.com/vaultic-org/vaultic-vaults)                     | 🐍 Python CLI/GUI for incremental encrypted backups |
 | [`vaultic-sdk-ts`](https://github.com/vaultic-org/vaultic-sdk-ts)     | 📦 TypeScript SDK for client-side end-to-end encryption |
-| [`vaultic-crypto-engine`](https://github.com/vaultic-org/vaultic-crypto-engine) | 🦀 Rust/WASM crypto engine for RSA/ECC keypair generation and hybrid encryption |
 | [`vaultic-crypto-engine-demo`](https://github.com/vaultic-org/vaultic-crypto-engine-demo) | 🔐 Vaultic Crypto Engine minimal web playground to test hybrid encryption |
 | [`vaultic`](https://github.com/vaultic-org/vaultic)         | 🌐 Public site & developer documentation (WIP) |
 
